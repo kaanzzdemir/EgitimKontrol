@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <form action="/" class="w-100" method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Kişi Ekle</h3>
+                <hr />
+                <span>Ad</span>
+                <input type="text" class="form-control" name="name" value="" />
+                <br />
+                <span>Soyad</span>
+                <input type="text" class="form-control" name="name" value="" />
+            </div>
+            <div class="col-md-6 mt-md-0 mt-4">
+                <h3 class="d-md-block d-none"> &nbsp</h3>
+                <hr class="d-md-block d-none" />
+                <span>TC Kimlik Numarası</span>
+                <input type="text" class="form-control" name="name" value="" />
+                <br />
+                <span>Adres</span>
+                <input type="text" class="form-control" name="name" value="" />
+                <button class="btn btn-sm btn-success mt-3 w-100">Ekle</button>
+            </div>
+        </div>
+    </form>
+</div>
